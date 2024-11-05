@@ -1,0 +1,49 @@
+body,
+html {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url('/assets/img-reciclavel.png');
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+
+.nav-open {
+  z-index: 3;
+  width: 250px;
+  font-weight: bold;
+  display: none;
+  right: 0;
+}
+
+.nav-btn {
+  cursor: pointer;
+}
+
+.text-header {
+  font-size: 32px;
+}
+
+.box-about {
+  max-width: 700px;
+}
+
+.img-about {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.clr1 {
+  color: #54c67a;
+}
+
+.clr2 {
+  color:  #031c28;
+}
